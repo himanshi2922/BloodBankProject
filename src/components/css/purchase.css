@@ -1,0 +1,64 @@
+.purchase-body{
+    height: 100vh;
+    background: url(images/purchase.jpg);
+    width: 100%;
+    background-size:cover;
+    background-position:relative;
+}
+.purchase-container{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 170px;
+    border: 2px solid rgb(0,156,70);
+    background-color: #fff;
+    height: 45vh;
+    width: 550px;
+}
+
+.purchase-tick{
+    margin-top:-30px;
+    margin-left: 43%;
+}
+
+.text-purchase 
+{
+    color: rgb(0, 156, 70);
+    font-size: 20px;
+    margin-left: 24%;
+}
+
+.text-purchase-2 
+{
+    color: rgb(0, 156, 70);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 32%;
+}
+
+.text-purchase-3
+{
+    align-items: center;
+    color: rgb(0, 156, 70);
+    font-size: 14px;
+    margin-top: -100px;
+    margin-left: 288px;
+    margin-bottom: 100px;
+}
+
+.profile-pic-donor
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 33%;
+}
+
+.purchase-btn
+{
+    background: none;
+    padding: 5px;
+    border: 2px solid rgb(0, 156, 70);
+    text-decoration: none;
+    color: rgb(0, 156, 70);
+    margin-left: 220px;
+}

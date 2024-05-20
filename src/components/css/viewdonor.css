@@ -1,0 +1,94 @@
+*{
+    font-family:'Quicksand',sans-serif;
+    font-weight: bold;
+}
+
+
+
+.donor-table
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.donor-view-header
+{
+    height: 70px;
+    width: 100%;
+    background-color: #d11134;
+}
+
+table
+{
+    border: 2px solid #d11134;
+    width: 98%;
+    border-collapse: collapse;
+    height: auto;
+}
+
+th
+{
+    height: 25px;
+}
+
+td{
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.heading{
+    background-color: #d11134;
+    color: white;
+}
+
+.entries{
+    height: 24px;
+}
+
+.no-data{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 50%;
+}
+
+.search-input{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 560px;
+    padding:10px;
+    font-size: 24px;
+}
+
+.search-select{
+    margin-left:10px;
+    height: 28px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.home-btn-view{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #fff;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#fff;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #d11134;
+}
+
+.btn-purchase{
+    text-decoration: none;
+    color:#d11134;
+    font-size: 14px;
+    border: 2px solid #d11134;
+    padding-left: 3px;
+    padding-right: 3px;
+}

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: url(images/background.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    padding: 28px 0;
+    margin-right: 120px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.register-donor {
+    font-weight: bold;
+    background-color: #e0040f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+}
+
+.text-normal {
+    text-decoration: none;
+    padding: 5px 0;
+    color: black;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.content form {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content form select {
+    border: none;
+    background: white;
+}
+
+.home-btn {
+    margin-left: 25px;
+    background: #e0040f;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    margin-left: -5px;
+    margin-top: auto;
+    height: fit-content;
+    width: fit-content;
+    background-color: #e0040f;
+    padding: 5px;
+    color: white;
+    border-radius: 7px;
+}
+
+.dropbtn {
+    background-color: #e0040f;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.register-content {
+    margin-top: 20px;
+}
